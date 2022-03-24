@@ -22,7 +22,14 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'aqueous-wave-80630.herokuapp.com',
+    'aqueous-wave-80630.herokuapp.com/',
+    'https://aqueous-wave-80630.herokuapp.com/',
+    'http://aqueous-wave-80630.herokuapp.com/',
+    '0.0.0.0',
+    '127.0.0.1'
+]
 
 
 # Application definition
